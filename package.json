@@ -73,8 +73,7 @@
 		"dev": "esno scripts/dev.ts",
 		"lint": "eslint src/**/* --fix --ext .ts,.js",
 		"pkg": "npm run build && cd dist && vsce package",
-		"release": "bumpp --tag --push --commit",
-		"test": "esno src/test/runTest.ts"
+		"release": "bumpp --tag --push --commit"
 	},
 	"devDependencies": {
 		"@types/fs-extra": "^9.0.13",
